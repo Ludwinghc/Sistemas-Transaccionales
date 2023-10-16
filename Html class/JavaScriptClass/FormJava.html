@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form with JavaScript</title>
+  <script>
+    function calcula(operacion)
+    {
+      var num1 = document.formulario.n1.value;
+      var num2 = document.formulario.n2.value;
+      var result = eval(num1 + operacion + num2)
+      document.formulario.resultado.value = result;
+    }
+  </script>
+</head>
+<body>
+  <h1>formulario tipo calculadora</h1>
+  <form name="formulario">
+    <label for="num1"> Digite el primer numero:
+      <input type="text" name="n1" pattern="[0-9]+" required>
+    </label>
+    <br>
+    <br>
+    <label for="num1"> Digite el segundo numero:
+      <input type="text" name="n2" pattern="[0-9]+" required>
+    </label>
+    
+    <div align="right">
+      <br>
+      <input type="Button" name="" value="+" onclick="calcula('+')">
+      <input type="Button" name="" value="-" onclick="calcula('-')">
+      <input type="Button" name="" value="*" onclick="calcula('*')">
+      <input type="Button" name="" value="/" onclick="calcula('/')">
+    </div>
+    
+    <div>
+      <h5>Resultado : 
+        <input type="text" name="resultado">
+      </h5>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+<body>
+  <h4>Primer formulario</h4>
+  <!-- Etiqueta para formularios -->
+  <form action="" method="post">
+    <!-- Etiqueta para poner el label al input -->
+    <label for="name"> Nombre:
+      <!-- Etiqueta de tipo de input 
+      con su tipo, su maximo de caracteres name para enlazarlo
+    despues, placeholder para poner una descripcion -->
+      <input 
+      type="text" 
+      maxlength="20" 
+      name="name" 
+      placeholder="Digite el nombre"
+      value="Nombre"
+      >
+    </label>
+<br>
+<br>
+    <label for="opcion"> Seleccione un lugar
+      <!-- para seleccionar varias se tiene que hacer control+click -->
+      <select name="opcion" id="">
+        <option value="torre"> torre</option>
+        <option value="parque"> parque</option>
+        <option value="centro comercia;"> centro comercial</option>
+        <option value="cine"> Cine</option>
+
+      </select>
+    </label>
+<br>
+<br>
+    <label for="opcion"> Seleccione un lugar`
+      <!-- para seleccionar varias se tiene que hacer control+click -->
+      <select name="opcion" id="" multiple>
+        <option value="torre"> torre</option>
+        <option value="parque"> parque</option>
+        <option value="centro comercia;"> centro comercial</option>
+        <option value="cine"> Cine</option>
+
+      </select>
+    </label>
+  </form>
+</body>
+</html>
