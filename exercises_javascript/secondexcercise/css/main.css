@@ -1,0 +1,16 @@
+body {
+  background: linear-gradient(#0B6575, #07424D);
+  margin: 0; /* Para eliminar el margen predeterminado del cuerpo */
+  height: 100vh; /* Para asegurar que el fondo degradado cubra toda la altura de la ventana */
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #b3e5ff;
+}
+.home{
+  text-align: center;
+}
+
+.from-control{
+  
+}
