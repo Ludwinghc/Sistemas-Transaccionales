@@ -1,0 +1,18 @@
+body{
+  background-color: cadetblue;
+  color: beige;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.home{
+  text-align: center;
+}
+.form-label, .form-input{
+  padding: 0px;
+  margin: 0px;
+}
+.form-input{
+  border-radius: 5px;
+}
+.answer{
+  justify-items: center;
+}
