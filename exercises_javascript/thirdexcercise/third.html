@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Third Excercise</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="javascript/main.js"></script>
+</head>
+<body>
+  <div class="home">
+    <h1>Orden de números</h1>
+
+    <form name="orden">
+      <label for="n1"><h4>Digite un primer número:</h4></label>
+      <input type="text" name="n1" class="form-control" pattern="[0-9]+" maxlength="4"> 
+      <label for="n2"><h4>Digite un segundo número:</h4></label>
+      <input type="text" name="n2" class="form-control" pattern="[0-9]+" maxlength="4">
+      <br>
+      <input type="button" name="" class="form-control" value="enviar" onclick="ordenar()">
+
+      <h4 id="primero">El primer número es: </h4>
+      <h4 id="segundo">El segundo número es: </h4>
+    </form>
+  </div>
+</body>
+</html>
