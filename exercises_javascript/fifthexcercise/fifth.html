@@ -11,8 +11,29 @@
   <div class="home">
     <h1>Detalle Articulos</h1>
     <form name="detalle">
-      
+      <label for="clave"><h4>Digite la clave del producto:</h4></label>
+      <input type="text" name="clave" placeholder="Solo la clave 01 o 02" class="form-control" pattern="[0-2]+" required maxlength="2">
+      <input type="button" value="Buscar" name="" onclick="Buscar()">
     </form>
+
+    <table>
+      <thead>
+        <tr>
+          <td>Nombre:</td>
+          <td>clave:</td>
+          <td>Precio Original:</td>
+          <td>Precio Descuento:</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="Nombre"></td>
+          <td id="clave"></td>
+          <td id="precioO"></td>
+          <td id="precioD"></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </body>
 </html>
