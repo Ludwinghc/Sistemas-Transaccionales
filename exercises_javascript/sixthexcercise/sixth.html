@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sixth excercise</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="javascript/main.js"></script>
+</head>
+<body>
+  <div class="home">
+    <h1>Compra Camisas</h1>
+    <form name="compras">
+      <label for="numcamisas"><h4>Digite el numero de camisetas:</h4></label>
+      <input type="text" name="numcamisas" id="numcamisas" class="form-control" pattern="[0-9]+">
+      <input type="button" value="Calcular" class="form-control" onclick="calcular()">
+    </form>
+    <h1 id="total"></h1>
+  </div>
+</body>
+</html>
