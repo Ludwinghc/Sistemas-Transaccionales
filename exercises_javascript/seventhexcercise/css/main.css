@@ -1,0 +1,20 @@
+body{
+  background: linear-gradient(#494475, #302C4D);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+}
+.home{
+  text-align: center;
+}
+.form-control{
+  border-radius: 7px;
+  background-color:whitesmoke;
+  border-style: inherit;
+  font-size: medium;
+  width: 30%;
+  margin-bottom: 8px;
+}

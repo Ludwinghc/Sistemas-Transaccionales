@@ -8,6 +8,19 @@
   <script type="module" src="javascript/main.js"></script>
 </head>
 <body>
-  
+<div class="home">
+    <h1>Piezas de refacciones</h1>
+    <form name="compraPiezas">
+      <label for="monto"><h4>Digite el monto total de la compra:</h4></label>
+      <input type="text" name="monto" id="monto" required pattern="[0-9]" class="form-control">
+      <input type="button" value="contador" id="contador">
+    </form>
+    <h1>Detalle de la compra:</h1>
+    <h5 id="inversionCompra"></h5>
+    <h5 id="totalInversionCompra"></h5>
+    <h5 id="prestamo"></h5>
+    <h5 id="totalPrestamo"></h5>
+    <h5 id="intereses"></h5>
+</div>
 </body>
 </html>
