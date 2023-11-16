@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eleventh Exercise</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script type="module" src="javascript/main.js"></script>
+</head>
+<body>
+  <div class="home">
+    <h1>Arboles</h1>
+    <form name="calculosiembra">
+      <label for="pinos"><h4>Digite el numero de pinos</h4></label>
+      <input type="text" name="pinos" id="pinos" pattern="[0-9]+" required>
+      <label for="oyamel"><h4>Digite el numero de Oyamel</h4></label>
+      <input type="text" name="oyamel" id="oyamel" pattern="[0-9]+" required>
+      <label for="cedro"><h4>Digite el numero de Cedro </h4></label>
+      <input type="text" name="cedro" id="cedro" pattern="[0-9]+" required>
+      <label for="area"><h4>digite el area en metros:</h4></label>
+      <input type="text" name="area" id="area" pattern="[0-9]+" required>
+      <input type="button" value="Calcular" id="enviar">
+    </form>
+    <h4 id="totalpino"></h4>
+    <h4 id="totaloyamel"></h4>
+    <h4 id="totalcedro"></h4>
+    <h4 id="totalarea"></h4>
+  </div>
+</body>
+</html>
