@@ -5,6 +5,8 @@ export default class Bosque{
     this.numCedro = numCedro;
     this.area = area;
     this.areaCuadrada;
+    this.areaPinos
+    
   }
 
   calculo(){
